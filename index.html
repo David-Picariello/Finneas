@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+	<meta name="description" content="Learn how to properly take care of your body">
+  	<meta name="keywords" content="health, exercise, diet, strength, cardio, stress, workout, eat right">
+  	<meta name="author" content="David Picariello">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="styles/normalize/main.cs">
+	<link rel="stylesheet" href="styles/main.css">
+
+
+	<link rel="icon" href="images/favicon.ico">
+	
+	<title>Finneas Image Gallery</title>
+
+	<!--Slicknav-->
+	<link rel="stylesheet" href="styles/slicknav.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+				$('#nav_menu').slicknav({prependTo:"#mobilemenu"});
+		});
+		</script>
+
+</head>
+
+<body>
+	<header class="clearfix">
+		<img id="logoimage" src="images/logo.jpeg" alt="">
+		<h2>Finneas </h2>
+		
+	</header>
+
+	<nav id="mobilemenu"></nav>
+
+
+
+	<main>
+		<h1>Image Gallery</h1>
+		
+	</main>
+<!-- Photo Grid -->
+<div class="row"> 
+	<div class="column">
+	  <img src="/images/images-1.jpeg">
+	  <img src="/images/images-2.jpeg">
+	  <img src="/images/images-3.jpeg">
+	  <img src="/images/images-4.jpeg">
+	  <img src="/images/images-5.jpeg">
+	  <img src="/images/images-6.jpeg">
+	  <img src="/images/Unknown-5.jpeg">
+
+	 
+	</div>
+	
+	<div class="column">
+	  <img src="/images/images-7.jpeg">
+	  <img src="/images/images-8.jpeg">
+	  <img src="/images/images-9.jpeg">
+	  <img src="/images/images-10.jpeg">
+	  <img src="/images/images-11.jpeg">
+	  <img src="/images/images.jpeg">
+	  <img src="/images/Unknown-6.jpeg">
+	
+	</div> 
+	 
+	<div class="column">
+	  <img src="/images/Unknown-1.jpeg">
+	  <img src="/images/Unknown-2.jpeg">
+	  <img src="/images/Unknown-3.jpeg">
+	  <img src="/images/Unknown-4.jpeg">
+	  
+	 
+	 
+	</div>
+	
+	<div class="column">
+	  <img src="/images/Unknown-7.jpeg">
+	  <img src="/images/Unknown-8.jpeg">
+	  <img src="/images/Unknown-9.jpeg">
+	  <img src="/images/Unknown-10.jpeg">
+	  <img src="/images/Unknown.jpeg">
+	  
+	 
+	</div>
+  </div>
+<!--Javasript get current year-->
+	<script>
+        window.onload = function() {
+            var d = new Date();
+            document.getElementById("copyright").innerHTML = d.getFullYear();
+        }
+    </script>
+
+	<footer>
+		<p>&copy; <span id="copyright"></span> Fineas Image Gallery</p>
+	</footer>
+
+
+</body>
+
+</html>
